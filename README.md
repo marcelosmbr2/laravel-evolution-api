@@ -36,7 +36,7 @@ With your API key authentication in hand, you can access the interface as an adm
 
 That’s it — your instance has been created. Now access the instance and click Generate QR Code. A modal will open displaying a QR code. Take the mobile device that will be used to send WhatsApp messages, open WhatsApp on it, go to Linked Devices, and link the device by scanning the QR code.
 
-<img width="1919" height="969" alt="image" src="https://github.com/user-attachments/assets/37e591d3-1a41-4c64-baf4-ff29af0342d1" />
+<img width="1919" height="966" alt="image" src="https://github.com/user-attachments/assets/f8c4abea-08f2-4617-9b31-53b95a29f8ed" />
 
 If everything works correctly, that WhatsApp account will now be linked to the Evolution instance.
 
