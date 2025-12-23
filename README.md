@@ -61,6 +61,6 @@ Everything is ready. Now, navigate to the Laravel application folder and run `do
 
 ![image](https://github.com/user-attachments/assets/21dedf3f-c159-4dd2-b151-cf8fbd1d551f)
 
-Now, if you access the Laravel application route `/message` in your browser, the phone number configured as the recipient will receive a WhatsApp message sent from the WhatsApp account linked to the Evolution instance.
+## 4. Send Message
 
-![image](https://github.com/user-attachments/assets/12f1645f-957e-4290-b503-005b51aa9236)
+Now, if you access the Laravel application route `/message` in your browser, the phone number configured as the recipient will receive a WhatsApp message sent from the WhatsApp account linked to the Evolution instance.
