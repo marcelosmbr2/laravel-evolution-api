@@ -24,11 +24,11 @@ AUTHENTICATION_API_KEY=test
 
 Only after configuring these settings should you run the Evolution container. First, go to the Evolution API folder and run docker compose up -d. This will start the application container.
 
-<img width="1580" height="848" alt="image" src="https://github.com/user-attachments/assets/5003e3d4-3f68-4784-b683-c6e286ed68e7" />
+<img width="1265" height="657" alt="image" src="https://github.com/user-attachments/assets/ea21248e-68e4-41ed-88d1-eafd63ad2440" />
 
 If it starts successfully, access localhost:8080 to make sure it is running. If everything is working, you can then access localhost:8080/manager, the route that provides a web interface for managing Evolution API instances.
 
-<img width="1918" height="875" alt="image" src="https://github.com/user-attachments/assets/11962093-4b34-47a6-a50d-4158e54a37f2" />
+<img width="1919" height="817" alt="image" src="https://github.com/user-attachments/assets/a0844b11-d6b7-44cd-97e3-a60bc5696a3f" />
 
 With your API key authentication in hand, you can access the interface as an administrator. There, you will create a new instance by clicking Create Instance, choose a name (for example, evo1), and leave the remaining fields with their default values.
 
