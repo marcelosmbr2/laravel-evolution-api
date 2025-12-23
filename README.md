@@ -32,8 +32,7 @@ If it starts successfully, access localhost:8080 to make sure it is running. If 
 
 With your API key authentication in hand, you can access the interface as an administrator. There, you will create a new instance by clicking Create Instance, choose a name (for example, evo1), and leave the remaining fields with their default values.
 
-<img width="1914" height="948" alt="image" src="https://github.com/user-attachments/assets/8df0ad12-61b2-459a-ad94-9067b46ea496" />
-<img width="1917" height="949" alt="image" src="https://github.com/user-attachments/assets/22923270-eb4a-4ea8-b387-68c0e6c9d1a8" />
+<img width="1919" height="909" alt="image" src="https://github.com/user-attachments/assets/dc8b39ec-d131-4042-84fa-c0543cb1eb5d" />
 
 That’s it — your instance has been created. Now access the instance and click Generate QR Code. A modal will open displaying a QR code. Take the mobile device that will be used to send WhatsApp messages, open WhatsApp on it, go to Linked Devices, and link the device by scanning the QR code.
 
