@@ -32,7 +32,7 @@ class WhatsappMessageNotification extends Notification
 
     public function toWhatsAppMessage(object $notifiable)
     {
-        $message = "Know you know how to integrate Laravel with WhatsApp?";
+        $message = "Now you know how to send notifications with WhatsApp in Laravel";
 
         return [
             'message' => $message,
