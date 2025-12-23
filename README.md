@@ -54,4 +54,4 @@ Everything is ready. Now, navigate to the Laravel application folder and run doc
 
 Now, if you access the Laravel application route /message in your browser, the phone number configured as the recipient will receive a WhatsApp message sent from the WhatsApp account linked to the Evolution instance.
 
-<img width="1918" height="801" alt="image" src="https://github.com/user-attachments/assets/2fa1badb-fec8-425e-a52c-d29aed5c8f91" />
+<img width="1918" height="815" alt="image" src="https://github.com/user-attachments/assets/12f1645f-957e-4290-b503-005b51aa9236" />
