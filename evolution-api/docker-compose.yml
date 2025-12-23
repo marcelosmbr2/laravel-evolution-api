@@ -1,0 +1,49 @@
+version: '3.9'
+services:
+
+  evolution-api:
+    container_name: evolution_api
+    image: atendai/evolution-api:v2.1.1
+    restart: always
+    ports:
+      - "8080:8080"
+    env_file:
+      - .env
+    volumes:
+      - evolution_instances:/evolution/instances
+    depends_on:
+      - evolution-db
+      - redis
+    networks:
+      - evolution  
+
+  evolution-db:
+    container_name: evolution_db
+    image: postgres:13-alpine
+    restart: always
+    ports:
+      - "5432:5432"
+    env_file:
+      - .env
+    volumes:
+      - evolution_db_data:/var/lib/postgresql/data
+    networks:
+      - evolution
+
+  redis:
+    container_name: evolution_redis
+    image: redis:alpine
+    restart: always
+    ports:
+      - "6379:6379"
+    networks:
+      - evolution
+
+networks:
+  evolution:
+    driver: bridge
+    name: evolution
+
+volumes:
+  evolution_instances:
+  evolution_db_data:
