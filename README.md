@@ -46,11 +46,11 @@ Now you need to fill in the environment variables that were left for later in th
 
 In the first one, set the name of the instance you created (for example, evo1, if you followed my suggestion). In the second one, set your authentication API key, yes, the same one you defined in the Evolution API .env file and used to access its administration interface.
 
-<img width="1071" height="610" alt="image" src="https://github.com/user-attachments/assets/f8ad34d0-e6d0-44e9-b9a5-d4764757705c" />
+<img width="1538" height="592" alt="image" src="https://github.com/user-attachments/assets/147f8bfc-99c7-4a9a-bfaf-813f4153c73a" />
 
 Everything is ready. Now, navigate to the Laravel application folder and run docker compose up -d. After that, you need to access the Laravel application container and run the migrations and the seeder. The seeder will create the recipient user, whose phone number will be the one you configured previously.
 
-<img width="1574" height="834" alt="image" src="https://github.com/user-attachments/assets/28b6e7af-3d5a-4f21-8f7f-e05209069d38" />
+<img width="1257" height="656" alt="image" src="https://github.com/user-attachments/assets/21dedf3f-c159-4dd2-b151-cf8fbd1d551f" />
 
 Now, if you access the Laravel application route /message in your browser, the phone number configured as the recipient will receive a WhatsApp message sent from the WhatsApp account linked to the Evolution instance.
 
